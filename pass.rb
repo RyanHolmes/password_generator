@@ -25,7 +25,3 @@ else
   IO.popen('pbcopy', 'w') { |f| f << hash_64 }
   puts "You have 1 minute."
 end
-
-# After 1 minute, password is wiped from clipboard
-spinner(60)
-IO.popen('pbcopy', 'w') { |f| f << "60 Seconds Passed" }
