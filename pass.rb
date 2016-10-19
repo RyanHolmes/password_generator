@@ -1,6 +1,5 @@
 require 'io/console'
 require 'openssl'
-require_relative 'spinner'
 
 def shrink num
   # something
